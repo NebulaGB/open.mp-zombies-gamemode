@@ -16,6 +16,26 @@ Kazujixcl aka Kendrick Port to open.mp gamemode
 ```
 
 ```js
-open mp server
+Open MP Server
 ```
 https://github.com/openmultiplayer/open.mp/releases
+```js
+YSI Includes
+```
+https://github.com/pawn-lang/YSI-Includes
+```js
+Streamer Includes
+```
+https://github.com/samp-incognito/samp-streamer-plugin/releases
+```js
+Bcrypt Includes
+```
+https://github.com/Sreyas-Sreelal/samp-bcrypt
+```js
+MySQL Includes
+```
+https://github.com/pBlueG/SA-MP-MySQL/releases
+```js
+SSCANF Includes
+```
+https://github.com/Y-Less/sscanf/releases
