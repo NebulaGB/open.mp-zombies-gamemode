@@ -14,5 +14,5 @@ Kazujixcl aka Kendrick Port to open.mp gamemode
 
 ```js
 open mp server
-https://github.com/openmultiplayer/open.mp/releases
 ```
+https://github.com/openmultiplayer/open.mp/releases
