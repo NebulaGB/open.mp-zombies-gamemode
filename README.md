@@ -11,3 +11,8 @@ Vyn Aka Luminouz Main Scripter
 Kitten Aka AaronNader96 Saurce Of Mapping in this Gamemode
 Kazujixcl aka Kendrick Port to open.mp gamemode
 ```
+
+```js
+open mp server
+https://github.com/openmultiplayer/open.mp/releases
+```
