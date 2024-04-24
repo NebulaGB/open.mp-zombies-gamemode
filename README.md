@@ -15,27 +15,21 @@ Kitten Aka AaronNader96 Saurce Of Mapping in this Gamemode
 Kazujixcl aka Kendrick Port to open.mp gamemode
 ```
 
-```js
 Open MP Server
-```
 https://github.com/openmultiplayer/open.mp/releases
-```js
-YSI Includes
-```
+YSI
 https://github.com/pawn-lang/YSI-Includes
-```js
-Streamer Includes
-```
+Streamer
 https://github.com/samp-incognito/samp-streamer-plugin/releases
-```js
-Bcrypt Includes
-```
+Bcrypt
 https://github.com/Sreyas-Sreelal/samp-bcrypt
-```js
-MySQL Includes
-```
+MySQL
 https://github.com/pBlueG/SA-MP-MySQL/releases
-```js
-SSCANF Includes
-```
+SSCANF
 https://github.com/Y-Less/sscanf/releases
+Foreach
+https://github.com/karimcambridge/samp-foreach
+Crashdetect
+https://github.com/Zeex/samp-plugin-crashdetect
+Zcmd
+https://github.com/Southclaws/zcmd
