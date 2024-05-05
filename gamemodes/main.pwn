@@ -2514,7 +2514,7 @@ GetFreeLootID()
 
 CreatePlayerLootDrop(itemname[], amount, Float:x, Float:y, Float:z) 
 {
-	new id = -1, model;
+	new id, model;
 
 	if((id = GetFreeLootID()) != -1) 
 	{
@@ -2531,7 +2531,7 @@ CreatePlayerLootDrop(itemname[], amount, Float:x, Float:y, Float:z)
 		{
 			LootData[id][lootObject] = CreateDynamicObject(model, x, y, z - 0.9, 0.0, 0.0, 0.0);
 		}
-		LootData[id][lootLabel] = CreateDynamic3DTextLabel(va_return("%s\nPress ALT LEFT to loot", itemname),-1,x,y,z-0.8,8.0,INVALID_PLAYER_ID,INVALID_VEHICLE_ID,1,-1,-1,-1, 8.0);
+		LootData[id][lootLabel] = CreateDynamic3DTextLabel(va_return("%s\nPress ALT LEFT to loot", itemname), -1, x, y, z-0.8, 8.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 1, -1, -1, -1, 8.0);
 		format(LootData[id][lootItem], 32, itemname);
 		LootData[id][lootAmount] = amount;
 		LootData[id][lootRange] = 1.3;
@@ -2541,9 +2541,12 @@ CreatePlayerLootDrop(itemname[], amount, Float:x, Float:y, Float:z)
 		LootData[id][lootPos][2] = z;
 
 		LootData[id][lootType] = LOOT_PLAYER_DROP;
+
+		return id;
 	}
-	return id;
+	return -1; // If GetFreeLootID() fails
 }
+
 
 CreateCarLoot(itemname[], amount, Float:x, Float:y, Float:z) 
 {
